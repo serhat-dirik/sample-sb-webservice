@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 @javax.jws.WebService(serviceName = "GreetingsService", portName = "GreetingsPort",
-                    targetNamespace = "http://service.ws.sample/",
+                    targetNamespace = "http://com.redhat.sd.demo/",
                     endpointInterface = "com.redhat.sd.demo.samplews.GreetingsService")
 public class GreetingsServiceImpl implements GreetingsService {
 
